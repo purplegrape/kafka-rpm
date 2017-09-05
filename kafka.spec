@@ -1,7 +1,3 @@
-%global _enable_debug_package 0
-%global debug_package %{nil}
-%global __os_install_post /usr/lib/rpm/brp-compress %{nil}
-
 Name:           kafka
 Version:        0.11.0.0
 Release:        2%{?dist}
